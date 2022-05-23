@@ -1,0 +1,22 @@
+.line {
+	flex: 1;
+	position: relative;
+	color: black;
+}
+
+.X {
+	color: black;
+	text-shadow: 2px 2px white;
+	margin-bottom: 0px;
+}
+
+.clear-button {
+	color: blue;
+	text-shadow: 2px 2px white;
+	margin-bottom: 0px;
+}
+
+.canvascontainer {
+	width: 300px;
+	height: 150px;
+}

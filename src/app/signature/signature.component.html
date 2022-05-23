@@ -1,0 +1,15 @@
+<div>
+  <div><h2 class="X">X</h2></div>
+  <div fxLayout="column" fxLayoutAlign="space-between center">
+    <canvas
+      (mouseleave)="emitData()"
+      (mouseup)="emitData()"
+      id="signature"
+      #canvas
+    ></canvas>
+  </div>
+
+  <div>
+    <button class="clear-button" (click)="onClearClick()">Clear</button>
+  </div>
+</div>
